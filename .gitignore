@@ -1,0 +1,98 @@
+# -----------------------
+# Python
+# -----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+*.env
+
+# Conda environments
+.env/
+environment.yml.lock
+
+# -----------------------
+# Byte-compiled / cache
+# -----------------------
+*.pyo
+*.pyc
+*.pyd
+
+# -----------------------
+# Logs
+# -----------------------
+*.log
+logs/
+log/
+*.out
+
+# -----------------------
+# Jupyter / notebooks
+# -----------------------
+.ipynb_checkpoints/
+notebooks/
+
+# -----------------------
+# IDE / Editor
+# -----------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# -----------------------
+# OS files
+# -----------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -----------------------
+# PDF / images / data outputs
+# -----------------------
+data/processed/
+data/output/
+data/temp/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.bmp
+
+# -----------------------
+# Machine learning / models
+# -----------------------
+models/math_ocr/*
+*.pt
+*.pth
+*.h5
+*.ckpt
+
+# -----------------------
+# Docker
+# -----------------------
+*.dockerignore
+docker-compose.override.yml
+*.pid
+*.sock
+
+# -----------------------
+# Coverage / test reports
+# -----------------------
+htmlcov/
+.coverage
+.tox/
+.nox/
+pytest_cache/
+*.cover
+coverage.xml
+
+# -----------------------
+# Misc
+# -----------------------
+*.bak
+*.swp

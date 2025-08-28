@@ -1,0 +1,29 @@
+# PDF Handling
+pymupdf==1.22.5
+pdfplumber==0.10.3
+pdfminer.six==20221105
+
+# Image Processing
+opencv-python==4.8.1.78
+Pillow==9.5.0
+scikit-image==0.21.0
+
+# OCR
+pytesseract==0.3.10
+transformers==4.33.3
+torch==2.0.1
+torchvision==0.15.2
+layoutparser==0.3.4
+
+# Math OCR (depends on torch + transformers)
+sympy==1.12
+
+# PDF Generation
+reportlab==4.0.7
+weasyprint==59.0
+
+# Utilities
+numpy==1.25.2
+scipy==1.11.3
+tqdm==4.66.1
+loguru==0.7.2
